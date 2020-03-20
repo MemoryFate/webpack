@@ -74,6 +74,10 @@ module.exports = {
       type: 'confirm',
       message: 'Install vue-router?',
     },
+    axios: {
+      type: 'confirm',
+      message: 'Install axios?'
+    },
     lint: {
       when: 'isNotTest',
       type: 'confirm',
